@@ -2,10 +2,6 @@
 This repo is being used for Class-Works and Assignments and Live-Tests (From Ostad) . 
 
 # Module-0 :
- 
-
-# class-0 :
-# Topic : 
 
 
 # Assignment-0 : 
@@ -15,17 +11,6 @@ This repo is being used for Class-Works and Assignments and Live-Tests (From Ost
 Summary : 
 
 Requirements : 
-
-
-# Live-Test-0 :
-
-# Exam Week-0
-# Live Test on Exam Week-0 : 
-
-# Topic : 
-Summary : 
-
-Question : 
 
 
 Check Branches for Class-Works and Assignments and Live-Tests . 
