@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="/style/dashboard_style_m.css">
+</head>
+
+<body>
+    <header>
+        <!-- Nav : Top Bar -->
+        <nav class="top-nav">
+            <div class="logo">
+                E-Store
+            </div>
+            
+            <div>
+                <input type="text" class="search-bar" placeholder="Search Products...">
+            </div>
+
+            <div class="user-info">
+                <h4>Welcome</h4>
+
+                <img src="https://mystickermania.com/cdn/stickers/spongebob/spongebob-patrick-dollar-512x512.png" alt="User Avatar">
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <!-- Nav : Left Sidebar -->
+        <nav class="sidebar">
+            <ul>
+                <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <section class="cards">
+                <div class="card">
+                    <h3>Total Sales</h3>
+                    <hr>
+                    <p>1,00,000/- BDT</p>
+                </div>
+
+                <div class="card">
+                    <h3>New Orders</h3>
+                    <hr>
+                    <p>100</p>
+                </div>
+
+                <div class="card">
+                    <h3>New Customers</h3>
+                    <hr>
+                    <p>10</p>
+                </div>
+            </section>
+
+            <section class="addCustomer">
+                <button id="openModalBtn">Add New Customer</button>
+
+                <!-- Modal : Add New Customer -->
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span id="close" class="closingIcon">
+                             x
+                        </span>
+
+                        <form>
+                            <h2>Add New Customer</h2>
+
+                            <label for="name">Name:</label>
+                            <input type="text" name="name">
+
+                            <label for="email">Email:</label>
+                            <input type="email" name="email">
+
+                            <button type="submit">Add Customer</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section class="summaryTable">
+                <h3>Latest Transactions :</h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Transaction ID</th>
+                            <th>Date</th>
+                            <th>Customer</th>
+                            <th>Amount (BDT)</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>12347</td>
+                            <td>03-12-2024</td>
+                            <td>Mr. AAA</td>
+                            <td>2500.00</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>12346</td>
+                            <td>03-12-2024</td>
+                            <td>Mr. BBB</td>
+                            <td>7000.00</td>
+                        </tr>
+
+                        <tr>
+                            <td>12345</td>
+                            <td>02-12-2024</td>
+                            <td>Mr. YYY</td>
+                            <td>4000.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <hr>
+            </section>
+        </main>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>E-Store : Management System</h3>
+            </div>
+    
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: support@estore.com</p>
+                <p>Phone: +880123456789</p>
+                <p>Address: 123 E-Store Ave, Dhaka, Bangladesh</p>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 E-Store. All Rights Reserved.</p>
+        </div>
+    </footer>    
+
+    <script src="./js/dashboard_m.js"></script>
+</body>
+</html>
